@@ -1,0 +1,21 @@
+{
+    "manifest_version":3,
+    "name":"My extension",
+    "version": "0.0.1",
+    "description": "My extension for hello world",
+    "author": "mareh.abdallah@aol.com",
+    
+    "icons": {
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup":"popup.html",
+    "default_icon": {             
+      "64": "icons/icon64.png",   
+      "128": "icons/icon128.png" 
+    },
+    "default_title": "Click Me"
+}
+
+}
